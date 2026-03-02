@@ -24,6 +24,7 @@ def get_google_finance_price(ticker):
         print(f"在家裡把專案的程式進行新功能 or refine 動作完畢後")
     else:
         print("無法取得網頁內容123456")
+        print("copy")
         print("更新")
 
 get_google_finance_price("2330")
