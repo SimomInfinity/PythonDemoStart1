@@ -12,10 +12,10 @@
             position: relative;
         }
         .box1::before{
-            content: '左邊';
+            content: 'youtube';
             width: 100px;
             height: 100px;
-            background-color: red;
+            background-color: skyblue;
             line-height: 100px;
             text-align: center;
             position: absolute;
@@ -23,10 +23,10 @@
             left: 0;
         }
         .box2::after{
-            content: '右邊';
+            content: 'google';
             width: 100px;
             height: 100px;
-            background-color: rebeccapurple;
+            background-color: yellow;
             line-height: 100px;
             text-align: center;
             position: absolute;
@@ -37,8 +37,12 @@
 </head>
 <body>
     <div class="box">
-        <div class="box1"></div>
-        <div class="box2"></div>
+        <div class="box1">
+            <a href="https://www.youtube.com/"></a>
+        </div>
+        <div class="box2">
+            <a href="https://www.google.com/?hl=zh_TW" target="_blank"></a>
+        </div>
     </div>
 </body>
 </html>
